@@ -1,0 +1,14 @@
+[package]
+name = "rustbar_example"
+version = "0.1.0"
+authors = ["joshragem <barney@whoop.com>"]
+
+[lib]
+name = "rustbar_example"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies.rustler]
+git = "https://github.com/hansihe/rustler"
+[dependencies.rustler_codegen]
+git = "https://github.com/hansihe/rustler"
