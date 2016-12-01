@@ -1,5 +1,5 @@
 -module(rs_compile_example_add).
--export([init/1, add/2]).
+-export([init/1, add/2, panic/0]).
 
 -define(LIBNAME, "librs_compile_example_nif").
 
@@ -19,4 +19,7 @@ init(App) ->
 
 
 add(N,N) ->
+    erlang:error(not_implemented).
+
+panic() ->
     erlang:error(not_implemented).
