@@ -6,7 +6,7 @@ extern crate rustler;
 use rustler::{ NifEnv, NifTerm, NifResult, NifEncoder };
 
 rustler_export_nifs!(
-    "rustbar_example_add",
+    "rs_compile_example_add",
     [("add", 2, add)],
     None
 );

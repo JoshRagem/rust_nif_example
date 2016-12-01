@@ -1,8 +1,8 @@
-{application, rustbar_example,
+{application, rs_compile_example,
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, { rustbar_example_app, []}},
+  {mod, { rs_compile_example_app, []}},
   {applications,
    [kernel,
     stdlib

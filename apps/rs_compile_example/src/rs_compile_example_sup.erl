@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc rustbar_example top level supervisor.
+%% @doc rs_compile_example top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(rustbar_example_sup).
+-module(rs_compile_example_sup).
 
 -behaviour(supervisor).
 

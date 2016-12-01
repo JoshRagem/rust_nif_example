@@ -1,7 +1,7 @@
--module(rustbar_example_add).
+-module(rs_compile_example_add).
 -export([init/1, add/2]).
 
--define(LIBNAME, "librustbar_example").
+-define(LIBNAME, "librs_compile_example_nif").
 
 init(App) ->
     SoName = case code:priv_dir(App) of

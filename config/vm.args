@@ -1,6 +1,6 @@
--sname rustbar_example
+-sname rs_compile_example
 
--setcookie rustbar_example_cookie
+-setcookie rs_compile_example_cookie
 
 +K true
 +A30

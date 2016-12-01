@@ -1,5 +1,5 @@
 [root]
-name = "rustbar_example"
+name = "rs_compile_example"
 version = "0.1.0"
 dependencies = [
  "rustler 0.12.0 (git+https://github.com/hansihe/rustler)",

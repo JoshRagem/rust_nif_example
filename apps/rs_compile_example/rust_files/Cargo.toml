@@ -1,10 +1,10 @@
 [package]
-name = "rustbar_example"
+name = "rs_compile_example"
 version = "0.1.0"
 authors = ["joshragem <barney@whoop.com>"]
 
 [lib]
-name = "rustbar_example"
+name = "rs_compile_example_nif"
 path = "src/lib.rs"
 crate-type = ["dylib"]
 

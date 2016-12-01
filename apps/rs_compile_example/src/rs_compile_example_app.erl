@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc rustbar_example public API
+%% @doc rs_compile_example public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(rustbar_example_app).
+-module(rs_compile_example_app).
 
 -behaviour(application).
 
@@ -15,9 +15,9 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    rustbar_example_add:init(rustbar_example),
-    io:format("add=~p",[rustbar_example_add:add(2,2)]),
-    rustbar_example_sup:start_link().
+    rs_compile_example_add:init(rs_compile_example),
+    io:format("add=~p",[rs_compile_example_add:add(2,2)]),
+    rs_compile_example_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->
